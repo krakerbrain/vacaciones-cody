@@ -1,38 +1,63 @@
-nav{
-  background-color: aliceblue;
-  padding: 15px;
-  display: flex;
-  gap:1em;
+nav img {
+  border-radius: 50%;
 }
 
-main{
+#header {
+  background-image: url(/public/images/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+  color: #fbc000;
+  display: flex;
+  align-items: flex-end;
+}
+
+#header p,
+h1 {
+  text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd,
+    2px 2px 0px rgba(206, 89, 55, 0);
+}
+#header p {
+  font-size: 1.2rem;
+  letter-spacing: 1.1px;
+}
+#encabezado {
+}
+main {
   text-align: center;
   max-width: 960px;
-  margin:0 auto;
+  margin: 0 auto;
+  font-family: "Anton", sans-serif;
 }
 
-section{
+#info {
+  background: #fbc000;
+  height: 30rem;
+}
+
+section {
   margin-top: 3rem;
 }
 
-.cursos div{
-  background-color: black;
+.cursos div {
+  background-color: #fbc000;
   color: white;
   max-width: 200px;
   display: inline-block;
   box-shadow: 5px 5px 10px black;
 }
-.fotos img{
+.fotos img {
   max-width: 450px;
   display: inline-block;
 }
-ul li{
+ul li {
   text-align: left;
 }
-ul li::marker {
+/* ul li::marker {
   content: "🚀";
-}
+} */
 
-ol li{
+ol li {
   text-align: left;
 }
